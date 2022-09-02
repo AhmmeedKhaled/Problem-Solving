@@ -13,7 +13,7 @@ public:
     }
     bool isHappy(int n) {
         bool found = 0;
-        for(int i = 0 ; i < 100 ; i++){
+        for(int i = 0 ; i < 10 ; i++){
             n = sum(n);
             if(n==1){
                 found = 1;
